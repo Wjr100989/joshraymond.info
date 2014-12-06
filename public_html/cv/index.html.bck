@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Josh Raymond - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Josh Raymond."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Josh Raymond</h1>
+			<h2 class="quickFade delayThree">Product Engineer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>e: <a href="mailto:me@joshraymond.info" target="_blank">me@joshraymond.info</a></li>
+				<!-- <li>LinkedIn: <a href="http://www.linkedin.com/pub/william-josh-raymond/3b/883/a26/" target="_blank">W. Josh Raymond</a></li> -->
+				<li>m: +1.302.584.2626</li>
+				<li>w: <a href="http://joshraymond.info">joshraymond.info</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Objective</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Senior professional seeking a Product Engineering or Program Management opportunity.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Senior SWAT Engineer at MaaS360 by Fiberlink, an IBM Company</h2>
+					<p class="subDetails">June 2012 - Present</p>
+					<p>Responsible for driving MaaS360 product excellence through all phases of the SDLC: design, implementation, QA, delivery, and continued refinement. Manages alpha and beta product roll outs. Interfaces directly with local and international teams daily. On call 24/7 to aid in resolution of any production system issues.<br></br>Technologies employed: Jira, OracleSQL, SQLite, Microsoft/Symantec Certificate Authorities, IBM BigFix, IBM Notes, IBM MaaS360, IBM Mobile Connect, IBM Worklight, Okta, PingOne, Microsoft Threat Management Gateway, LDAP (OpenLDAP, Domino, Novell eDirectory), Microsoft Active Directory, BASH, Java, PowerShell, Microsoft .NET Framework, Microsoft Exchange & Web Services, Microsoft SharePoint, Blackberry Enterprise Server, Android 2.x+, iOS 4.x+, Windows Phone 7.x+, BOX for Enterprise, Google Apps, IBM Connections, Content Management Interoperability Services (CMIS), Citrix, Apache, Fabric, Salesforce.com (Service Cloud, Visualforce, APEX, Triggers), Cacoo, DB2, OpenDB, VMware, IBM MessageSight.<br></br>Notable achievements: 20+ production code releases as validation lead, MaaS360 Academy: A Channel-Oriented Partner Training Program, MaaS360 Product Ambassador to China and Japan.</p>
+				</article
+				
+				<article>
+					<h2>Technology Consultant Coordinator at Grinnell College</h2>
+					<p class="subDetails">August 2009 - May 2012</p>
+					<p>Owned hiring and training of all trainees. Redesigned TC Corps helpdesk procedures to improve efficiency. Responsible for direct support of 800+ campus machines and over 1500+ students, faculty and staff.<br></br>Technologies employed: Dell KACE, OpenBSD, Ubuntu, Drobo, Cisco Clean Access, Parallels Desktop, Microsoft Office, Microsoft Exchange, Active Directory, Bradford NAC, Extron.<br></br>Notable achievements: proactive monitoring of helpdesk supported facilities, a redesigned employee training programming, a newly implemented back-up/automated network-attached storage environment.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Release Management</li>
+					<li>Agile Methodology</li>
+					<li>SaaS Infrastructure</li>
+					<li>Cloud Scalability</li>
+					<li>Enterprise Security</li>
+					<li>EMM Solutions</li>
+					<li>REST Integration</li>
+					<li>Product Management</li>
+                                        <li>Mobility & Security</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Grinnell College</h2>
+					    <p class="subDetails">Computer Science, B.A.</p>
+<!--
+					<p>A comprehensive, theory-oriented approach to the import of programmatic solutions for daily problems. Strong focus on optimization and real-world utility, practicality of implementation, and attention to edge-case scenarios.<br></br>Coursework includes a heavy influence from the following disciplines: Computer Science, Sociology, Linguistics, Mathematics, and Spanish.</p> 
+-->
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Activities & Interests</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Kayaking</li>
+					<li>Camping</li>
+					<li>Foreign Languages</li>
+					<li>Live Music</li>
+					<li>Travel</li>
+                                        <li>DIY Projects</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52385626-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Josh Raymond</title>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+	<meta content="" name="description" />
+	<meta content="" name="keywords" />
+	<link href="http://fonts.googleapis.com/css?family=eniource+Sans+Pro:300,400" rel="stylesheet" /><script src="js/jquery.min.js"></script><script src="js/skel.min.js"></script><script src="js/init.js"></script><noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/noscript.css" />
+		</noscript><!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+</head>
+<body class="homepage"><!-- Wrapper-->
+<div id="wrapper"><!-- Nav -->
+<nav id="nav"><a class="fa fa-home active" href="#me"><span>Home</span></a> <a class="fa fa-folder" href="#work"><span>Work</span></a> <a class="fa fa-envelope" href="#contact"><span>Contact Me</span></a> <a class="fa fa-linkedin" href="https://www.linkedin.com/pub/william-josh-raymond/3b/883/a26" target="_blank"><span>LinkedIn</span></a></nav>
+<!-- Main -->
+
+<div id="main"><!-- Me -->
+<article class="panel" id="me">
+<header>
+<h1>Josh Raymond</h1>
+<span class="byline">Product Engineer<br>Program Manager</br></span>
+</header>
+<a class="jumplink pic" href="#work"><span class="arrow fa fa-chevron-right"><span>See my work</span></span> <img alt="" src="images/me.jpg" /> </a></article>
+<!-- Work -->
+
+<article class="panel" id="work">
+<header>
+<h2>Work</h2>
+</header>
+
+<p>More to come later!
+</br>If you're interested, here's my <a href="/cv/index.html">CV</a>.</p>
+
+
+</article>
+<!-- Contact -->
+
+<article class="panel" id="contact">
+<header>
+<h2>Contact Me</h2>
+</header>
+
+<p>Email: <a href="mailto:me@joshraymond.info">me@joshraymond.info</a><br />
+Phone: +1.302.584.2626</p>
+</article>
+</div>
+<!-- Footer -->
+
+<div id="footer">
+<ul class="links">
+	<li>&copy; Josh Raymond</li>
+    <li>2014</li>
+	<!-- <li>Design : <a href="http://html5up.net/">HTML5 UP</a></li> -->
+</ul>
+</div>
+</div>
+</body>
+</html>

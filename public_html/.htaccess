@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^josh\-raymond\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.josh\-raymond\.com$
+RewriteRule ^/?$ "http\:\/\/joshraymond\.info\/parked" [R=301,L]
+

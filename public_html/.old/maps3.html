@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>maps3</title>
+   
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <style>
+    #map { height: 1000px;
+    	   width: 1000px; }
+    </style>
+    
+    </head>
+    <body>
+     <div id="map"></div>
+     
+         <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+     <script>
+     
+     var map = L.map('map').setView([0,0], 2);
+     L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
+       attribution: 'MapQuest',
+       maxZoom: 18
+       }).addTo(map);
+  
+       
+       
+    /*   var marker = L.marker([39.7458,-75.5467])
+            .addTo(map)
+            .bindPopup("<b>I WIN</b>")
+            .openPopup();
+            */ 
+ 
+ console.log("We got before here"); 
+ $.getJSON("http://wjr100989.cartodb.com/api/v2/sql?q=select st_y(the_geom) as lat, st_x(the_geom)as lon, description, purpose, name from placesihavebeen", function(coordinates, finish){
+
+for(n=0; n<coordinates.rows.length; n++) {
+		console.log(n);
+        L.marker([coordinates.rows[n].lat, coordinates.rows[n].lon], {title: coordinates.rows[n].name})
+     			 .addTo(map)
+                 .bindPopup(coordinates.rows[n].name + "<br>" + coordinates.rows[n].description + "<br>" + "<i>" + coordinates.rows[n].purpose + "</i>");
+  } 
+
+ });
+
+     </script>
+     
+     </body>
+</html>
